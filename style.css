@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+marquee {
+    color: #bc2e1e;
+    font-size: 60px;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    color: #bc2e1e;
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slogan {
+    margin-top: -90px;
+    margin-bottom: 5%;
+    font-size: 34px;
+    color: transparent;
+    background: rgb(19, 19, 159);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(197, 7, 255, 0.5);
+
+}
+
+.pic{
+    display: flex;
+    justify-content: center;    
+}
+
+.pic2 {
+    display: flex;
+    justify-content: center;    
+    margin-top: 1%;
+}
+
+.pic img , .pic2 img{
+    border-radius: 25px;
+}
+
+.container , .container2{
+    position: relative;
+    margin-left: 1px;
+    border: 4px solid rgb(72, 66, 66);
+    margin-right: 10px;
+    border-radius: 25px;
+  }
+  
+  
+  .overlay, .overlay2{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(72, 66, 66, 0.9); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    border-radius: 21px;
+  }
+  
+  .container:hover .overlay , .container2:hover .overlay2{
+    opacity: 1;
+  }
+
+.about-info{
+        line-height: 45px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+}
+
+.about-info i{   
+    margin-right: 2px;
+    margin-top: 30px;
+}
+
+.hatdog img{
+    border: 4px solid gray;
+    border-radius: 25px;
+}
+
+.last a {
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    text-shadow: 0 0 4px rgb(0, 247, 255);
+}
+
+.listprod a {
+    color: black;
+    text-shadow: 0 0 4px rgb(0, 247, 255);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about {
+    margin-top: 80px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about a {
+    color: red;
+}
+
+.last {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+}

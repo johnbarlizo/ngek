@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     justify-content: center;
+    text-align: center;
 }
 
 marquee {
@@ -29,13 +30,17 @@ h6{
 
 .pic{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .pic2 {
     display: flex;
     justify-content: center;    
     margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .pic img , .pic2 img{
